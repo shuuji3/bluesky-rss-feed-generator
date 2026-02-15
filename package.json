@@ -5,12 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "start": "tsx src/index.ts"
+    "dev": "node src/index.ts",
+    "start": "node src/index.ts"
   },
   "keywords": [],
   "author": "TAKAHASHI Shuuji <id@shuuji3.xyz>",
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10.13.1",
   "dependencies": {
     "@atcute/bluesky": "^3.2.17",
