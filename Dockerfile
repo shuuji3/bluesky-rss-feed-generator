@@ -4,4 +4,4 @@ WORKDIR /app
 COPY package.json pnpm-lock.yaml ./
 RUN pnpm install --prod
 COPY . .
-CMD ["node", "src/index.ts"]
+CMD ["pnpm", "start", "--", "serve"]
