@@ -2,16 +2,24 @@
   "name": "bluesky-rss-feed-generator",
   "version": "1.0.0",
   "description": "Simple RSS feed generator for Bluesky with reply post",
+  "keywords": [
+    "bluesky",
+    "rss",
+    "feed",
+    "generator"
+  ],
+  "author": "TAKAHASHI Shuuji <id@shuuji3.xyz>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=25.0.0"
+  },
+  "packageManager": "pnpm@10.13.1",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "node src/index.ts",
     "start": "node src/index.ts"
   },
-  "keywords": [],
-  "author": "TAKAHASHI Shuuji <id@shuuji3.xyz>",
-  "license": "MIT",
-  "packageManager": "pnpm@10.13.1",
   "dependencies": {
     "@atcute/bluesky": "^3.2.17",
     "@atcute/client": "^4.2.1",
